@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[Your Name] | Academic Website</title>
+    <meta
+      name="description"
+      content="Academic website of [Your Name], including research interests, publications, teaching, and contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient-bg" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <a href="#top" class="brand">[Your Name]</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">
+        Menu
+      </button>
+      <nav id="main-nav" class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-reveal">
+        <div class="hero-text">
+          <p class="eyebrow">Academic Job Market Candidate</p>
+          <h1>[Your Name]</h1>
+          <p class="subtitle">
+            Ph.D. Candidate in [Your Department], [Your University].
+          </p>
+          <p>
+            I study [Primary Research Area], with a focus on [Theme A], [Theme B], and
+            [Theme C]. My work combines [Method 1] and [Method 2] to answer policy-relevant
+            questions.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="./cv.pdf" target="_blank" rel="noreferrer">Download CV</a>
+            <a class="button button-ghost" href="mailto:youremail@university.edu">Email Me</a>
+          </div>
+        </div>
+        <aside class="profile-card" aria-label="Profile details">
+          <div class="avatar" aria-hidden="true">YN</div>
+          <p><strong>Current Role:</strong> Ph.D. Candidate</p>
+          <p><strong>Institution:</strong> [Your University]</p>
+          <p><strong>Job Market Paper:</strong> <a href="#">Title Placeholder</a></p>
+          <p><strong>Research Areas:</strong> [Area 1], [Area 2]</p>
+        </aside>
+      </section>
+
+      <section id="about" class="content-section section-reveal">
+        <h2>About</h2>
+        <p>
+          I am a doctoral researcher in [Department] at [University], advised by [Advisor Name].
+          My research examines [one sentence on your big question]. I am especially interested in
+          how [specific mechanism] shapes [outcome] in [context].
+        </p>
+        <p>
+          Before graduate school, I completed [Degree] at [Institution] and worked on
+          [project/industry/policy role].
+        </p>
+      </section>
+
+      <section id="research" class="content-section section-reveal">
+        <h2>Research Agenda</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Theme 1</h3>
+            <p>
+              Briefly explain the first stream of your work and why it matters for your field.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Theme 2</h3>
+            <p>
+              Summarize your second stream of work, with one concrete empirical or theoretical
+              angle.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Theme 3</h3>
+            <p>
+              Explain your third stream and the broader contribution to scholarship or policy.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="content-section section-reveal">
+        <h2>Selected Publications</h2>
+        <ol class="publication-list">
+          <li>
+            <strong>[Your Last Name], [Initials].</strong> (2026). "Paper Title One." <em>Journal Name</em>.
+            <a href="#">Paper</a>
+          </li>
+          <li>
+            <strong>[Coauthor], [Your Last Name], [Initials].</strong> (2025). "Paper Title Two."
+            <em>Journal Name</em>. <a href="#">Paper</a>
+          </li>
+          <li>
+            <strong>[Your Last Name], [Initials].</strong> (2024). "Paper Title Three." <em>Working Paper</em>.
+            <a href="#">Draft</a>
+          </li>
+        </ol>
+
+        <h3>Working Papers</h3>
+        <ul class="working-papers">
+          <li>
+            "Working Paper Title A" (with [Coauthor]).
+            <a href="#">Abstract</a>
+          </li>
+          <li>
+            "Working Paper Title B".
+            <a href="#">Draft</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="teaching" class="content-section section-reveal">
+        <h2>Teaching</h2>
+        <ul class="teaching-list">
+          <li>
+            Instructor, <strong>[Course Name]</strong>, [University], [Term Year]
+          </li>
+          <li>
+            Teaching Assistant, <strong>[Course Name]</strong>, [University], [Term Year]
+          </li>
+          <li>
+            Guest Lecture, <strong>[Course Name]</strong>, [University], [Term Year]
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="content-section section-reveal">
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="mailto:youremail@university.edu">youremail@university.edu</a>
+        </p>
+        <p>
+          Office: [Building], Room [Number], [University]
+        </p>
+        <p>
+          Profiles:
+          <a href="#">Google Scholar</a> |
+          <a href="#">ORCID</a> |
+          <a href="#">LinkedIn</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> [Your Name]. Last updated February 2026.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
