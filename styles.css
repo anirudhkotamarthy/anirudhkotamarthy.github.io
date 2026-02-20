@@ -299,15 +299,15 @@ main {
   animation-delay: 0.15s;
 }
 
-#research.section-reveal {
+#agenda.section-reveal {
   animation-delay: 0.25s;
 }
 
-#paper.section-reveal {
+#projects.section-reveal {
   animation-delay: 0.35s;
 }
 
-#experience.section-reveal {
+#background.section-reveal {
   animation-delay: 0.45s;
 }
 
